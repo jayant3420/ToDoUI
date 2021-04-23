@@ -1,0 +1,281 @@
+.outer-container{
+    width: 70%;
+    margin: auto;
+    margin-top: 20vh;
+}
+
+.heading-container{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.left-text > h2{
+    display: inline-block;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+}
+
+.left-text > label{
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: gray;
+    font-weight: 100;
+}
+.right-text > a > i{
+    font-size: 35px;
+    color: red;
+}
+.right-text > a {
+    display: block;
+    text-decoration: none;
+    margin-top: 28px;
+}
+
+.right-text > a > label {
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: gray;
+    cursor: pointer;
+}
+
+.card-container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 90%;
+    margin: auto;
+    margin-top: 40px;
+}
+
+.card-container > a{
+    text-decoration: none;
+    color: black;
+}
+
+.card-container-item{
+    margin: 0px 10px 20px 10px;
+    border: 1px solid red;
+    border-radius: 5px;
+    width: 200px;
+    height: 290px;
+}
+
+.item-heading{
+    width: 75%;
+    height: 35px;
+    margin-left: auto;
+}
+
+.item-heading > p{
+    margin: 20px 0px 10px 0px;
+    color: red;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.item-description{
+    margin: 20px 0px 0px 0px;
+}
+
+.item-description > p:first-child{
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: red;
+    text-decoration: line-through;
+    text-align: center;
+}
+
+.pendingTaskText{
+    margin: 15px 0px 0px 10px;
+}
+
+.pendingTaskText > input {
+    width: 15px;
+    height: 15px;
+}
+
+.pendingTaskText > label {
+   font-size: 18px;
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+.shadow-box{
+    box-shadow: 5px 5px 10px 2px rgb(192, 186, 186);
+}
+
+/*CSS for Page - 2*/
+.heading-p2{    
+    text-align: center;
+    margin: 10px;
+}
+
+.heading-p2 > hr{
+    display: inline-block;    
+    width: 200px;
+}
+
+.heading-p2 > h2{
+    display: inline-block;
+    font-size: 45px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.backBtn-p2{
+    text-align: center;
+}
+.backBtn-p2 > a{
+    text-decoration: none;
+    color: black;
+}
+.backBtn-p2 > a > i{
+    font-size: 35px;
+    color: red;
+}
+.backBtn-p2 > a > label{
+    font-size: 32px;
+    color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.cardItem-container-p2{
+    margin-top: 50px;
+    width: 100vw;
+}
+.cardItem-p2{
+    position: relative;
+    margin: auto;
+    width: 200px;
+    height: 300px;
+    border: 1px solid red;
+    border-radius: 5px;
+}
+.item-heading-p2{
+    width: 75%;
+    margin-left: auto;
+}
+.item-heading-p2 > p{
+    color: red;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.item-des-p2{
+    margin-top: 20px;
+}
+.item-des-p2 > p{
+    text-align: center;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: line-through;
+    color: red;
+}
+.pendingText-block-p2{
+    margin-left: 10px;
+}
+.pendingText-block-p2 > input{
+   width: 15px;
+   height: 15px;
+}
+.pendingText-block-p2 > label{
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+ }
+ .addBtn-p2 > a > i{
+     font-size: 35px;
+     color: red;
+     position: absolute;
+     right: 10px;
+     bottom: 10px;
+ }
+
+ .blur{
+     filter: blur(8px);
+ }
+
+ /*CSS for page 3*/
+ .addItemContainer-p3{
+     width: 100%;
+     height: 100vh;
+     position: absolute;
+     top: 1px;
+ }
+ .addItem-p3{
+    width: 350px;
+    height: 180px;
+    border: 1px solid red;
+    border-radius: 5px;
+    background-color: white;
+    margin: auto;
+    margin-top: 320px;
+ }
+ .addItem-p3 > p{
+     color: red;
+     font-size: 18px;
+     font-family: Arial, Helvetica, sans-serif;
+     text-align: center;
+ }
+ .addItem-p3 > input{
+    display: block;
+    margin: auto;
+    margin-top: 25px;
+    border: 1px solid red;
+    width: 200px;
+    border-radius: 15px;
+    outline: none;
+    padding-left: 10px;
+}
+.btn-grp-p3{
+    margin-top: 20px;
+    text-align: center;
+}
+.addBtn-p3, .closeBtn-p3{
+    width: 60px;
+    height: 22px;
+    background-color: red;
+    border: 1px solid red;
+    border-radius: 10px;
+    color: white;
+    margin-right: 15px;
+}
+ @media screen and (min-width: 320px) and (max-width: 620px){
+    .addlist-link > label, .item-description, .item-heading > hr{
+        display: none;
+    }
+    .outer-container{
+        width: 85%;
+    }
+    .card-container, .heading-container{
+        width: 100%;
+    }
+    .card-container-item{
+        width: 100%;
+        height: auto;        
+    }
+    .item-heading{
+        margin-right: auto;
+    }
+    .item-heading > p{
+        color: gray;
+    }
+    .heading-p2 > hr:first-child, .heading-p2 > hr:last-child, .backBtn-p2 > a > label{
+        display: none;
+    }
+    .heading-mobile-btn-p2{
+        display: flex;
+        flex-direction: row-reverse;
+        width: 90%;
+        align-items: center;
+        text-align: center;
+    }
+    .cardItem-p2{
+        width: 70vw;
+    }
+    .heading-p2 > h2{
+        font-size: 35px;
+    }
+    .addItem-p3{
+        width: 70%;        
+    }     
+}
