@@ -16,59 +16,50 @@
                 <label for="list-text">List</label>
             </div>
             <div class="right-text">
-                <a href="page-3.html" class="addlist-link">
+                <a class="addlist-link" onclick="addItemPopup()">
                     <i class="fas fa-plus-circle"></i>
                     <label for="addlist">AddList</label>
                 </a>
             </div>
         </div>
 
+        <div class="" id="empty-info-text">
+            <h1>No Items in the ToDo List</h1>
+        </div>
+
        <div class="card-container">
            
-            <a href="page-2.html" class="card-container-item shadow-box">
-                
-                <div class="item-heading">
-                    <p>Trip to Paris</p>
-                    <hr>
-                </div>
-                <div class="item-description">
-                    <p>Completed Task</p>
-                    <div class="pendingTaskText">
-                    <input type="checkbox" name="checkbox" class="checkbox">
-                    <label for="peding-task-text">Pending Task</label>
-                </div>
-                </div>
-                    
-            </a>
-                   
-            <div class="card-container-item shadow-box">
-                <div class="item-heading">
-                    <p>My To Do List</p>
-                    <hr>
-                </div>
-                <div class="item-description">
-                    <p>Completed Task</p>
-                    <div class="pendingTaskText">
-                    <input type="checkbox" name="checkbox" class="checkbox">
-                    <label for="peding-task-text">Pending Task</label>
-                </div>
-                </div>
-            </div>
-
-            <div class="card-container-item shadow-box">
-                <div class="item-heading">
-                    <p>My To Do List</p>
-                    <hr>
-                </div>
-                <div class="item-description">
-                    <p>Completed Task</p>
-                    <div class="pendingTaskText">
-                    <input type="checkbox" name="checkbox" class="checkbox">
-                    <label for="peding-task-text">Pending Task</label>
-                </div>
-                </div>
-            </div>                      
-        </div> 
+        </div>
+                  
     </div>
+    <div class="outer-container-2 hidden">
+        <div class="outer-container-heading-2">
+            <p class="back-heading-2" onclick="redirectBack()"><i class="fas fa-chevron-circle-left" style="color: blue; padding: 5px;"></i><label style="color: rgb(151, 150, 150);">Back</label></p>
+            <p class="heading-center-2"><b>Task 1</b></p>
+            <p class="addItem-heading-2" onclick="addItemPopup()"><i class="fas fa-plus-circle" style="color: red; padding: 5px;"></i><label style="color: rgb(151, 150, 150);">Add Item</label></p>
+        </div>
+        <div class="card-container card-container-2" id="card-container-2">
+            
+        </div>
+    </div>
+    
+    <div class="addItem-p3 shadow-box hidden">
+        <p>Add New Item</p>
+        <input type="text" placeholder="Add New Item" id="addItem-card-popup">
+        <div class="btn-grp-p3">
+            <button class="addBtn-p3" onclick="addCard();">ADD</button>
+            <button class="closeBtn-p3" onclick="closeCard()">CLOSE</button>
+        </div>
+    </div>
+    
+    <div class="addSubItem-p3 shadow-box hidden">
+        <p>Add New Item</p>
+        <input type="text" placeholder="Add New Item" id="subitem-card-popup">
+        <div class="btn-grp-p3">
+            <button class="addBtn-p3" onclick="subItems_add()">ADD</button>
+            <button class="closeBtn-p3 subItem-pop-close-btn" onclick="subItems_close()">CLOSE</button>
+        </div>
+    </div> 
+    <script type="text/javascript" src="./js/action.js"></script>
 </body>
 </html>
